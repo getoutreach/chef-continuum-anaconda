@@ -1,3 +1,12 @@
+#
+# Cookbook Name:: anaconda
+# Provider:: package
+#
+# Copyright (C) 2015 Matt Chu
+#
+# All rights reserved - Do Not Redistribute
+#
+
 def whyrun_supported?
   true
 end

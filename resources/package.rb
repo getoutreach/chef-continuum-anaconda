@@ -1,3 +1,12 @@
+#
+# Cookbook Name:: anaconda
+# Resource:: package
+#
+# Copyright (C) 2015 Matt Chu
+#
+# All rights reserved - Do Not Redistribute
+#
+
 actions :install, :remove
 default_action :install
 
