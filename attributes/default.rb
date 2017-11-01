@@ -1,7 +1,7 @@
 # for miniconda this must be 'latest'
-default['anaconda']['version'] = '2.3.0'
+default['anaconda']['version'] = '5.0.1'
 # the version of python: either 'python2' or 'python3'
-default['anaconda']['python'] = 'python2'
+default['anaconda']['python'] = 'python3'
 # the architecture: nil to autodetect, or either 'x86' or 'x86_64'
 default['anaconda']['flavor'] = nil
 # either 'anaconda' or 'miniconda'
@@ -45,6 +45,18 @@ default['anaconda']['installer_info'] = {
         'uri_prefix' => 'https://3230d63b5fc54e62148e-c95ac804525aac4b6dba79b00b39d1d3.ssl.cf1.rackcdn.com',
         'x86' => '4cc10d65c303191004ada2b6d75562c8ed84e42bf9871af06440dd956077b555',
         'x86_64' => '3be5410b2d9db45882c7de07c554cf4f1034becc274ec9074b23fd37a5c87a6f',
+      },
+    },
+    '5.0.1' => {
+      'python2' => {
+        'uri_prefix' => 'https://repo.continuum.io/archive',
+        'x86' => nil,
+        'x86_64' => nil,
+      },
+      'python3' => {
+        'uri_prefix' => 'https://repo.continuum.io/archive',
+        'x86' => '991a4b656fcb0236864fbb27ff03bb7f3d98579205829b76b66f65cfa6734240',
+        'x86_64' => '55e4db1919f49c92d5abbf27a4be5986ae157f074bf9f8238963cd4582a4068a',
       },
     },
   },

@@ -1,3 +1,12 @@
+#
+# Cookbook Name:: anaconda
+# Resource:: nbservice
+#
+# Copyright (C) 2015 Matt Chu
+#
+# All rights reserved - Do Not Redistribute
+#
+
 actions :create
 default_action :create
 

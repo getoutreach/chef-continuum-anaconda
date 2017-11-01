@@ -31,5 +31,7 @@ suites:
       - recipe[anaconda::default]
     attributes:
       anaconda:
+        version: '5.0.1'
+        python_version: 'python3'
         flavor: 'x86_64'
         accept_license: 'yes'

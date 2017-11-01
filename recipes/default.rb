@@ -59,7 +59,7 @@ installer_path = "#{Chef::Config[:file_cache_path]}/#{installer_basename}"
 # where to download the installer from
 installer_source = "#{installer_info['uri_prefix']}/#{installer_basename}"
 installer_checksum = installer_info[flavor]
-
+5.0.1
 installer_config = 'installer_config'
 installer_config_path = "#{Chef::Config[:file_cache_path]}/#{installer_config}"
 
@@ -86,7 +86,7 @@ template installer_config_path do
   })
 end
 
-directory node.anaconda.install_root do
+directory node['anaconda']['install_root'] do
   owner node['anaconda']['owner']
   group node['anaconda']['group']
   recursive true
